@@ -1,6 +1,6 @@
 h1 a {
     color: #FCA205;
-    font-family: 'Lobster';
+    font-family: 'Lobster', sans-serif;
 }
 
 .page-header {
@@ -34,6 +34,11 @@ h1, h2, h3, h4 {
 
 .post-form textarea, .post-form input {
     width: 100%;
+}
+
+.post-form p label {
+    font-family: 'Lobster', sans-serif;
+    font-size: 16px;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
